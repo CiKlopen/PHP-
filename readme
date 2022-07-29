@@ -1,1 +1,6 @@
-
+这是一个留言板项目，属于CRUD的体系，就是通过PHP对数据库进行，
+读取，编辑，更改，删除。
+登录，注册，重置密码，登陆系统的，通过PHP对数据库进行操作
+例子：
+databases= new mysqli(); 需要传入 userhost，username，password
+databases->qurey(); 这是执行语句的函数，将指令通过这个函数对数据库进行操作
