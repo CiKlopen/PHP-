@@ -4,3 +4,11 @@
 例子：
 databases= new mysqli(); 需要传入 userhost，username，password
 databases->qurey(); 这是执行语句的函数，将指令通过这个函数对数据库进行操作
+留言板同理，也是进行调用数据库进行操作，根据username进行储存数据。
+
+未完成的
+cookie的学习
+session的学习
+文件上传的学习
+完善html与php的配合
+写的项目还不够多.
