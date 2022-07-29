@@ -1,0 +1,70 @@
+<html>  
+
+<head>
+    <meta charset="UTF-8">
+    <div style="height:150px">
+        
+    </div>
+    <div>
+        <h1 style="height: 100px;" align="center">留言板系统 1.0</h1>
+    </div>
+    <div align="center">
+        用户登录
+    </div>
+    <title> 留言板 1.1 </title>
+
+    
+</head>  
+
+<div align="center">
+
+
+<form name="LoginForm" method="post" action="login.php" onSubmit="return InputCheck(this)">  
+
+
+
+<p>  
+
+
+<label for="username" class="label"></label>  
+
+<input id="username" name="username" type="text" class="input"  placeholder="请输入账号"/>  
+
+</p>
+
+
+
+
+<p>  
+
+<label for="password" class="label"></label>  
+
+<input id="password" name="password" type="password" class="input"  placeholder="请输入密码"/>  
+
+</p>
+
+
+
+
+<p>  
+
+<input type="submit" name="submit" value="  登 录  " class="left" style="width: 120px;" /> 
+<button type="button" onclick='location.href=("adduser.html")' >注 册</button>
+<!--"window.open('adduser.html')" -->
+</p>  
+<p>
+    <a href="repassword.php">忘记密码</a>
+</p>
+
+
+
+</form>  
+</div>
+<!--
+    接下来需要实现各种功能 登录已经可以
+    1.需要重新设计数据库的各项表 库的命名 需要 用户的账号，密码，留言信息，全部需要分开，用户的个人信息的添加 
+    2.留言板的信息如何实现 访问现有的库里的所有留言信息
+    3.添加，更改，删除，查询。
+-->
+
+</html>
